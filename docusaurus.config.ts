@@ -104,6 +104,10 @@ const config: Config = {
             //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
             // },
             {
+              label: "QQ群 630572929",
+              href: "https://qm.qq.com/q/yIpHnyHg5y",
+            },
+            {
               label: "Discord",
               href: "https://discord.gg/5k8S56c3Xp",
             },
@@ -132,6 +136,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ["json"],
     },
   } satisfies Preset.ThemeConfig,
 };
