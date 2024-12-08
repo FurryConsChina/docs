@@ -3,20 +3,20 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "FEC·兽展日历 文档",
+  title: "兽展日历 文档",
   tagline: "Who is your favorite fearless hero?🎵",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://docs.furryeventchina.com",
+  url: "https://docs.furrycons.cn",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "FurCoder", // Usually your GitHub org/user name.
-  projectName: "furry-event-china-docs", // Usually your repo name.
+  // organizationName: "FurryConsChina", // Usually your GitHub org/user name.
+  // projectName: "docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -60,10 +60,10 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "FEC Docs",
+      title: "FCC Docs",
       logo: {
-        alt: "FEC Logo",
-        src: "https://images.furryeventchina.com/logo_800x800.png",
+        alt: "FCC Logo",
+        src: "https://images.furrycons.cn/logo_800x800.png",
       },
       items: [
         {
@@ -74,7 +74,7 @@ const config: Config = {
         },
         { to: "/blog", label: "博客", position: "left" },
         {
-          href: "https://github.com/FurCoder/furry-event-china-docs",
+          href: "https://github.com/FurryConsChina/docs",
           label: "GitHub",
           position: "right",
         },
@@ -87,11 +87,7 @@ const config: Config = {
           title: "任意门",
           items: [
             {
-              label: "FEC·兽展日历 国际站",
-              to: "https://www.furryeventchina.com",
-            },
-            {
-              label: "FEC·兽展日历 大陆站",
+              label: "兽展日历",
               to: "https://www.furrycons.cn",
             },
           ],
@@ -99,10 +95,6 @@ const config: Config = {
         {
           title: "社区",
           items: [
-            // {
-            //   label: "Stack Overflow",
-            //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            // },
             {
               label: "QQ群 630572929",
               href: "https://qm.qq.com/q/yIpHnyHg5y",
@@ -111,10 +103,6 @@ const config: Config = {
               label: "Discord",
               href: "https://discord.gg/5k8S56c3Xp",
             },
-            // {
-            //   label: "Twitter",
-            //   href: "https://twitter.com/docusaurus",
-            // },
           ],
         },
         {
@@ -126,12 +114,12 @@ const config: Config = {
             // },
             {
               label: "GitHub",
-              href: "https://github.com/FurCoder/furry-event-china-docs",
+              href: "https://github.com/FurryConsChina",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} FurryEventChina, Inc. Built with Docusaurus、🍜 and ❤️。`,
+      copyright: `Copyright © ${new Date().getFullYear()} FurryConsChina, Inc. Built with Docusaurus、🍜 and ❤️。`,
     },
     prism: {
       theme: prismThemes.github,
