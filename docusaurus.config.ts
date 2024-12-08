@@ -74,7 +74,7 @@ const config: Config = {
         },
         { to: "/blog", label: "博客", position: "left" },
         {
-          href: "https://github.com/FurryConsChina/docs",
+          href: "https://github.com/FurryConsChina",
           label: "GitHub",
           position: "right",
         },
