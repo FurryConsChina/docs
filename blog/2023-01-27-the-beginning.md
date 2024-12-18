@@ -3,6 +3,8 @@ slug: the-beginning
 title: 起点
 authors: paiji
 ---
+关于我们的起源。
+<!-- truncate -->
 
 在将 [FurryEventChina.com](https://www.FurryEventChina.com) 域名持有数年后，我决定用这个域名随便做点什么对大家有点用的东西，不能任其躺在我的域名列表里发烂发臭了！（每年还要交钱呢！）
 
