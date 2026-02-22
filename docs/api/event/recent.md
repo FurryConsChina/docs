@@ -1,11 +1,19 @@
 # 最近展会
 
-调用此接口可以获取最近 30 天内的展会信息，目前不支持任何参数：
+:::tip
 
-请注意：如果在最近 30 天内没有数据，会返回过期的最后一条数据。
+接口返回的图片地址已经经过优化压缩，且默认返回 jpg 格式，尽管如此部分图片的体积依然十分恐怖，请根据自身需求缓存后裁剪并优化体积（有的展会宣传图单张体积可超过 10MB+）。
+
+:::
+
+调用此接口可以获取最近 30 天内的展会信息。
+
+支持以下参数：
+
+- `keepOld`：当此值为 `true` 时，如果最近 30 天内没有数据，会返回过期的数据作为填充。
 
 ```
-https://api.furrycons.cn/event/recent
+https://api.furrycons.cn/open/event/recent
 ```
 
 预计响应：
@@ -13,27 +21,28 @@ https://api.furrycons.cn/event/recent
 ```json
 {
   "total": 1,
+  "current": 1,
+  "pageSize": 10,
   "data": [
     {
-      "name": "冬兽聚2024",
+      "id": "0c55f1b6-0411-4f21-9244-95ca5268f10e",
+      "name": "乘风启航",
       "scale": "medium",
       "status": "scheduled",
-      "slug": "2024-dec-shanghai-con",
-      "startDate": "2024-12-20T02:00:00.677Z",
-      "endDate": "2024-12-22T10:00:00.816Z",
-      "address": "夏阳湖皇冠假日酒店",
-      "city": "上海",
-      "coverUrl": "https://images.furrycons.cn/organizations/furrychina/2024-dec-shanghai-con/cover-lMiuOMbUlUsqmiiOTpWpG.png",
-      "detail": "将它们化作璀璨星辰，让我在下雨之际看见我的玫瑰。\n关注并转发BILIBILI动态，抽一名小伙伴送出【冬兽聚2024】入场票1张~\n【11月9日19点正式开售！】\n购票&酒店预订：官网FurryChina.com\n\n【冬兽聚2024！】2024年12月20-22日\n第五年！上海·夏阳湖皇冠假日酒店！共计三天两夜！\n\n★★【新上线日夜通票！套票内含高能派对通行证！】★★\n房间套票现在内含高能派对通行证！无需额外购买！\n更多票务详情请访问官网Furrychina.com 或查看长图！\n\n★【新上线户外野营！】★\n想尝试不一样的兽聚体验？来试试户外野营吧！*\n\n【申请中心现已开放！】\n摊位申请、舞台申请、户外野营申请现已开放！\n\n【摊位展商速览！】\n天邪鬼工作室、狛神本铺、MOFUMOFU、犇犇牛火锅店、FLUFFYLAND！\n更多摊位正在路上！\n\n【那些熟悉的活动们！】\n毛毛大合照、名片交友会\n商品贩售、舞台表演\n高能派对、CFCC集市\n茶话会、祈愿亭\n【还有更多活动正在筹备中！敬请期待！】\n\n更多详情请查看长图！\n\n*该项逃票票活动需要参加者拥有野营装备及经验\n----------------------\n2024.12.20-22 上海·冬兽聚\n官网：FurryChina.com \n购票页面：FurryChina.com \n冬兽聚官方交流群③：652214537\nX： @furrychina\nFacebook：@furrychina\n展会联络邮箱：contact@furrychina.com\n商务咨询邮箱：business@furrychina.com",
+      "slug": "2026-mar-wuhan-con",
+      "startDate": "2026-03-06T02:00:00.000Z",
+      "endDate": "2026-03-08T10:00:00.000Z",
+      "address": "天河机场皇冠假日及假日酒店",
+      "region": "武汉",
+      "thumbnail": "https://images.furrycons.cn/organizations/wumeng/2026-mar-wuhan-con/cover-TkBWL2OJkeFPd5A0xWbt4.png",
+      "detail": "\n✈️准备好了吗？让我们一起乘风启航！✈️\n从「武萌汇」的温暖回忆，到「毛了个毛」的全新启程—— \n以毛相聚，以热爱为翼，共赴一场崭新的旅程！\n\n⏰活动时间：2026.3.6-3.8⏰\n📍活动地点：武汉天河机场皇冠假日及假日酒店📍\n\n🔶展会信息丨❤️嘉宾信息丨✏️签绘画师丨💳展商信息丨🎫票务情报 公布中～\n\n🏠酒店房间套票全新升级！基础通行证、赞助通行证可自由搭配各房型，灵活组合由你选择～\n🎫开票时间：2026年1月11日20:00🎫\n\n📖Staff、舞台、摊位、官方摄影师、签绘画师、毛毛大讲堂以及工作室合照申请表单填写现已开放。毛毛已经准备好啦，在这里等你！\n\n官方交流群：784051168\n\n联系邮箱：contact@fur-fur.cn\n\n🎊毛毛在这里祝大家周末快乐，三月我们不见不散！🎊",
       "organization": {
-        "name": "极兽聚",
-        "slug": "furrychina",
-        "coverUrl": "https://images.furrycons.cn/organizations/furrychina/logo.svg",
-        "globalUrl": "https://www.furryeventchina.com/furrychina",
-        "cnUrl": "https://www.furrycons.cn/furrychina"
+        "name": "毛了个毛FurFurFusion",
+        "slug": "wumeng",
+        "logoUrl": "https://images.furrycons.cn/organizations/wumeng/logo-pg0G5WXzFfCOhFRG3ZQtU.png",
+        "url": "https://www.furrycons.cn/wumeng"
       },
-      "globalUrl": "https://www.furryeventchina.com/furrychina/2024-dec-shanghai-con",
-      "cnUrl": "https://www.furrycons.cn/furrychina/2024-dec-shanghai-con"
+      "url": "https://www.furrycons.cn/wumeng/2026-mar-wuhan-con"
     }
   ]
 }
