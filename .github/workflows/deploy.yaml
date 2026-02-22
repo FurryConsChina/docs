@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dist-files
-          path: dist/
+          path: build/
           retention-days: 1
 
   deploy-eo:
@@ -44,16 +44,16 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: dist-files
-          path: dist/
+          path: build/
 
       - name: Deploy to QCloud Pages
         id: deploy
         run: |
           npm install -g edgeone
           if [ "${{ github.ref }}" = "refs/heads/main" ]; then
-            edgeone pages deploy ./dist -n fcc-docs -t ${{ secrets.QCLOUD_PAGES_TOKEN }} 2>&1 | tee deploy.log
+            edgeone pages deploy ./build -n fcc-docs -t ${{ secrets.QCLOUD_PAGES_TOKEN }} 2>&1 | tee deploy.log
           else
-            edgeone pages deploy ./dist -n fcc-docs -e preview -t ${{ secrets.QCLOUD_PAGES_TOKEN }} 2>&1 | tee deploy.log
+            edgeone pages deploy ./build -n fcc-docs -e preview -t ${{ secrets.QCLOUD_PAGES_TOKEN }} 2>&1 | tee deploy.log
           fi
 
       - name: Extract Preview URL
