@@ -1,0 +1,229 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "blume/components/layout/PageLayout.astro";
+import data from "blume:data";
+
+const { config } = data;
+const routeById = new Map(
+  data.routes.map((route) => [route.entryId, route.path]),
+);
+const posts = (await getCollection("docs"))
+  .filter((entry) => entry.data.type === "blog" && !entry.data.draft)
+  .map((entry) => ({
+    date: entry.data.date,
+    description: entry.data.description,
+    href: routeById.get(entry.id),
+    title: entry.data.title,
+  }))
+  .filter((post) => post.href)
+  .toSorted(
+    (a, b) => Number(new Date(b.date ?? 0)) - Number(new Date(a.date ?? 0)),
+  );
+
+---
+
+<PageLayout
+  site={{ title: config.title, description: config.description }}
+  logo={config.logo}
+  banner={config.banner}
+  analytics={config.analytics}
+  navigation={data.navigation}
+  favicon={config.favicon}
+  fontCssVars={data.fontCssVars}
+  themeMode={config.theme.mode}
+  searchEnabled={config.search.enabled}
+  siteUrl={config.site}
+  ogEnabled={config.og.enabled}
+  page={{
+    title: "博客｜兽展日历文档",
+    description: "兽展日历的项目动态、技术分享、品牌资源与社区信息。",
+    route: "/blog",
+  }}
+>
+  <main class="blog-page">
+    <header>
+      <span>JOURNAL</span>
+      <h1>我们的故事</h1>
+      <p>项目动态、技术思考，以及我们一路走来遇见的人和事。</p>
+    </header>
+
+    <section class="posts" aria-label="文章列表">
+      {
+        posts.map((post, index) => (
+          <a class:list={["post", { featured: index === 0 }]} href={post.href}>
+            <div>
+              {index === 0 && <span class="badge">最新文章</span>}
+              <h2>{post.title}</h2>
+              <p>{post.description}</p>
+            </div>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        ))
+      }
+    </section>
+  </main>
+</PageLayout>
+
+<style>
+  .blog-page {
+    min-height: calc(100vh - 4rem);
+    padding: 6rem 2rem 8rem;
+    color: #211d2c;
+    background:
+      radial-gradient(circle at 85% 8%, rgba(239, 91, 104, 0.17), transparent 22rem),
+      #fffaf7;
+  }
+
+  :global([data-theme="dark"]) .blog-page {
+    color: #fff7f8;
+    background:
+      radial-gradient(circle at 85% 8%, rgba(239, 91, 104, 0.12), transparent 22rem),
+      #151219;
+  }
+
+  header,
+  .posts {
+    max-width: 66rem;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-bottom: 4rem;
+  }
+
+  header > span {
+    color: #df3f50;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+  }
+
+  h1 {
+    max-width: 14ch;
+    margin: 1rem 0;
+    font-size: clamp(3rem, 7vw, 5.4rem);
+    line-height: 1.02;
+    letter-spacing: -0.06em;
+  }
+
+  header p {
+    max-width: 36rem;
+    margin: 0;
+    color: #766e7e;
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+
+  :global([data-theme="dark"]) header p {
+    color: #bdb5c5;
+  }
+
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .post {
+    position: relative;
+    min-height: 17rem;
+    padding: 1.5rem;
+    color: inherit;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.76);
+    border: 1px solid rgba(70, 52, 78, 0.11);
+    border-radius: 1.35rem;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  :global([data-theme="dark"]) .post {
+    background: rgba(37, 31, 43, 0.82);
+    border-color: rgba(255, 255, 255, 0.09);
+  }
+
+  .post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1.25rem 3rem rgba(52, 35, 60, 0.11);
+  }
+
+  .post.featured {
+    grid-column: 1 / -1;
+    min-height: 20rem;
+    background:
+      radial-gradient(circle at 88% 20%, rgba(255, 255, 255, 0.23), transparent 16rem),
+      linear-gradient(135deg, #ee5b69, #cc3850);
+    color: white;
+    border: none;
+  }
+
+  .badge {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    padding: 0.35rem 0.6rem;
+    color: #b52e42;
+    font-size: 0.7rem;
+    font-weight: 800;
+    background: white;
+    border-radius: 999px;
+  }
+
+  h2 {
+    max-width: 18ch;
+    margin: 0 0 0.8rem;
+    font-size: clamp(1.45rem, 3vw, 2.3rem);
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+  }
+
+  .post p {
+    max-width: 34rem;
+    margin: 0;
+    color: #766e7e;
+    font-size: 0.9rem;
+    line-height: 1.75;
+  }
+
+  :global([data-theme="dark"]) .post p {
+    color: #bdb5c5;
+  }
+
+  .featured p {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .arrow {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    display: grid;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #df3f50;
+    background: rgba(239, 91, 104, 0.1);
+    border-radius: 50%;
+    place-items: center;
+  }
+
+  .featured .arrow {
+    color: #b52e42;
+    background: white;
+  }
+
+  @media (max-width: 700px) {
+    .blog-page {
+      padding: 4.5rem 1.25rem 6rem;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+    }
+
+    .posts {
+      grid-template-columns: 1fr;
+    }
+
+    .post.featured {
+      grid-column: auto;
+    }
+  }
+</style>

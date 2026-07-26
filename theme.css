@@ -1,0 +1,38 @@
+:root {
+  --fcc-coral: #ef5b68;
+  --fcc-coral-strong: #df3f50;
+  --fcc-ink: #211d2c;
+  --fcc-cream: #fff8f3;
+  --fcc-lilac: #8b78d7;
+  --fcc-border: color-mix(in srgb, var(--fcc-coral) 18%, transparent);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:
+    "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB",
+    system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family:
+    "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+::selection {
+  color: #fff;
+  background: var(--fcc-coral);
+}
+
+[data-theme="dark"] {
+  --fcc-ink: #fff7f8;
+  --fcc-cream: #1a171f;
+  --fcc-border: color-mix(in srgb, #ff8490 28%, transparent);
+}

@@ -1,33 +1,31 @@
-# 兽展日历 文档
+# 兽展日历文档
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/21dc501c-7ab3-4a96-a230-be6812dad552/deploy-status)](https://app.netlify.com/sites/deluxe-griffin-ee110e/deploys)
+[![Build](https://github.com/FurCoder/furry-event-china-docs/actions/workflows/deploy.yaml/badge.svg)](https://github.com/FurCoder/furry-event-china-docs/actions/workflows/deploy.yaml)
 
-This website is built using [Docusaurus](https://docusaurus.io/), and deploy on Netlify for now.
+## 环境要求
 
-### Installation
+- Node.js 24
+- Yarn 4（通过 Corepack）
 
-We use Yarn>=2
-
-```
+```bash
 corepack enable
+yarn install
 ```
 
-```
-$ yarn install
-```
+## 本地开发
 
-### Local Development
-
-```
-$ yarn start
+```bash
+yarn dev
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+开发文档统一发布在 `/docs`，概览包含接入前言，接口详情在开发和构建时直接读取[线上 OpenAPI](https://api.furrycons.cn/open/docs/openapi.json)。
 
-### Build
+## 检查与构建
 
+```bash
+yarn check
+yarn validate
+yarn build
 ```
-$ yarn build
-```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+生产静态文件会输出到 `dist/`。

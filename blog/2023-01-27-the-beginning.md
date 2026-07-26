@@ -1,7 +1,15 @@
 ---
-slug: the-beginning
+slug: blog/the-beginning
 title: 起点
-authors: paiji
+description: 兽展日历从一个闲置域名开始的故事。
+type: blog
+date: 2023-01-27
+authors:
+  - name: PaiJi
+    url: https://github.com/paiji
+    avatar: https://github.com/paiji.png
+sidebar:
+  order: 6
 ---
 关于我们的起源。
 <!-- truncate -->
@@ -17,7 +25,4 @@ authors: paiji
 >“缘，妙不可言。”
 >
 >— 《瞎看什么》
-
-
-
 
