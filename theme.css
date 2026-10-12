@@ -2,9 +2,17 @@
   --fcc-coral: #ef5b68;
   --fcc-coral-strong: #df3f50;
   --fcc-ink: #211d2c;
-  --fcc-cream: #fff8f3;
+  --fcc-cream: #fffaf7;
+  --fcc-muted: #6f687a;
+  --fcc-card: rgba(255, 255, 255, 0.78);
   --fcc-lilac: #8b78d7;
-  --fcc-border: color-mix(in srgb, var(--fcc-coral) 18%, transparent);
+  --fcc-border: rgba(74, 52, 82, 0.12);
+  --fcc-glow: color-mix(in srgb, var(--fcc-coral) 17%, transparent);
+  --fcc-featured-start: #ee5b69;
+  --fcc-featured-end: #cc3850;
+  --fcc-on-featured: #fff;
+  --fcc-on-featured-muted: rgba(255, 255, 255, 0.78);
+  --fcc-badge-ink: #b52e42;
 }
 
 html {
@@ -33,6 +41,9 @@ h4 {
 
 [data-theme="dark"] {
   --fcc-ink: #fff7f8;
-  --fcc-cream: #1a171f;
-  --fcc-border: color-mix(in srgb, #ff8490 28%, transparent);
+  --fcc-cream: #151219;
+  --fcc-muted: #bdb5c5;
+  --fcc-card: rgba(36, 31, 42, 0.82);
+  --fcc-border: rgba(255, 255, 255, 0.1);
+  --fcc-glow: color-mix(in srgb, var(--fcc-coral) 12%, transparent);
 }

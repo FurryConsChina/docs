@@ -170,26 +170,14 @@ const { config } = data;
 
 <style>
   .home {
-    --home-ink: #211d2c;
-    --home-muted: #6f687a;
-    --home-paper: #fffaf7;
-    --home-card: rgba(255, 255, 255, 0.78);
-    --home-border: rgba(74, 52, 82, 0.12);
-    color: var(--home-ink);
+    color: var(--fcc-ink);
     overflow: hidden;
     background:
       radial-gradient(circle at 84% 13%, rgba(255, 181, 190, 0.26), transparent 25rem),
       radial-gradient(circle at 8% 42%, rgba(164, 144, 228, 0.12), transparent 24rem),
-      var(--home-paper);
+      var(--fcc-cream);
   }
 
-  :global([data-theme="dark"]) .home {
-    --home-ink: #fff7f8;
-    --home-muted: #bdb5c5;
-    --home-paper: #151219;
-    --home-card: rgba(36, 31, 42, 0.82);
-    --home-border: rgba(255, 255, 255, 0.1);
-  }
 
   .hero {
     position: relative;
@@ -233,7 +221,7 @@ const { config } = data;
   .hero-copy > p {
     max-width: 34rem;
     margin: 0;
-    color: var(--home-muted);
+    color: var(--fcc-muted);
     font-size: 1.12rem;
     line-height: 1.85;
   }
@@ -256,7 +244,7 @@ const { config } = data;
     font-size: 0.92rem;
     font-weight: 700;
     text-decoration: none;
-    border: 1px solid var(--home-border);
+    border: 1px solid var(--fcc-border);
     border-radius: 0.9rem;
     transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
   }
@@ -267,13 +255,13 @@ const { config } = data;
 
   .button-primary {
     color: white;
-    background: linear-gradient(135deg, #ef5b68, #df3f50);
+    background: linear-gradient(135deg, var(--fcc-coral), var(--fcc-coral-strong));
     border-color: transparent;
     box-shadow: 0 0.8rem 2rem rgba(223, 63, 80, 0.22);
   }
 
   .button-secondary {
-    background: var(--home-card);
+    background: var(--fcc-card);
     backdrop-filter: blur(12px);
   }
 
@@ -335,8 +323,8 @@ const { config } = data;
     align-items: center;
     width: min(23rem, 82%);
     padding: 1.15rem;
-    background: var(--home-card);
-    border: 1px solid var(--home-border);
+    background: var(--fcc-card);
+    border: 1px solid var(--fcc-border);
     border-radius: 1.5rem;
     box-shadow: 0 2rem 5rem rgba(60, 40, 68, 0.15);
     backdrop-filter: blur(22px);
@@ -354,7 +342,7 @@ const { config } = data;
   .event-card small {
     display: block;
     margin-bottom: 0.25rem;
-    color: var(--home-muted);
+    color: var(--fcc-muted);
     font-size: 0.72rem;
   }
 
@@ -370,8 +358,8 @@ const { config } = data;
     align-items: center;
     min-width: 13.5rem;
     padding: 0.85rem 1rem;
-    background: var(--home-card);
-    border: 1px solid var(--home-border);
+    background: var(--fcc-card);
+    border: 1px solid var(--fcc-border);
     border-radius: 1rem;
     box-shadow: 0 1rem 2.8rem rgba(50, 34, 58, 0.11);
     backdrop-filter: blur(18px);
@@ -394,7 +382,7 @@ const { config } = data;
     flex: 0 0 auto;
     width: 2.4rem;
     height: 2.4rem;
-    color: #df3f50;
+    color: var(--fcc-coral-strong);
     font-size: 1.1rem;
     place-items: center;
     background: rgba(239, 91, 104, 0.12);
@@ -418,7 +406,7 @@ const { config } = data;
   }
 
   .section-heading > span {
-    color: #df3f50;
+    color: var(--fcc-coral-strong);
     font-size: 0.72rem;
     font-weight: 800;
     letter-spacing: 0.14em;
@@ -435,7 +423,7 @@ const { config } = data;
 
   .section-heading p {
     margin: 0;
-    color: var(--home-muted);
+    color: var(--fcc-muted);
   }
 
   .feature-grid {
@@ -463,13 +451,13 @@ const { config } = data;
     justify-content: center;
     gap: 0.8rem;
     min-height: 6rem;
-    color: var(--home-muted);
+    color: var(--fcc-muted);
     text-decoration: none;
   }
 
   .community-logo:hover,
   .community-logo:focus-visible {
-    color: var(--home-ink);
+    color: var(--fcc-ink);
   }
 
   .community-logo:focus-visible {
@@ -514,8 +502,8 @@ const { config } = data;
     padding: 1.5rem;
     color: inherit;
     text-decoration: none;
-    background: var(--home-card);
-    border: 1px solid var(--home-border);
+    background: var(--fcc-card);
+    border: 1px solid var(--fcc-border);
     border-radius: 1.4rem;
     transition: transform 180ms ease, box-shadow 180ms ease;
     overflow: hidden;
@@ -538,13 +526,13 @@ const { config } = data;
     box-shadow: 0 1.25rem 3rem rgba(57, 40, 65, 0.1);
   }
 
-  .feature-coral { --feature-color: #ef5b68; }
-  .feature-purple { --feature-color: #8b78d7; }
+  .feature-coral { --feature-color: var(--fcc-coral); }
+  .feature-purple { --feature-color: var(--fcc-lilac); }
   .feature-gold { --feature-color: #d99132; }
 
   .feature-index {
     float: right;
-    color: var(--home-muted);
+    color: var(--fcc-muted);
     font-size: 0.72rem;
     font-weight: 750;
   }
@@ -569,7 +557,7 @@ const { config } = data;
 
   .feature p {
     margin: 0;
-    color: var(--home-muted);
+    color: var(--fcc-muted);
     font-size: 0.92rem;
     line-height: 1.75;
   }
@@ -592,7 +580,7 @@ const { config } = data;
     color: white;
     background:
       radial-gradient(circle at 85% 20%, rgba(255, 255, 255, 0.18), transparent 12rem),
-      linear-gradient(135deg, #e84b5c, #c9334b);
+      linear-gradient(135deg, var(--fcc-featured-start), var(--fcc-featured-end));
     border-radius: 1.75rem;
     box-shadow: 0 1.5rem 4rem rgba(201, 51, 75, 0.22);
   }
@@ -604,7 +592,7 @@ const { config } = data;
 
   .button-light {
     flex: 0 0 auto;
-    color: #b52e42;
+    color: var(--fcc-badge-ink);
     background: white;
     border: none;
   }
@@ -616,7 +604,7 @@ const { config } = data;
     max-width: 76rem;
     margin: 0 auto;
     padding: 1.5rem 2rem 2.5rem;
-    color: var(--home-muted);
+    color: var(--fcc-muted);
     font-size: 0.82rem;
   }
 
@@ -624,7 +612,7 @@ const { config } = data;
     display: flex;
     gap: 0.65rem;
     align-items: center;
-    color: var(--home-ink);
+    color: var(--fcc-ink);
     font-weight: 700;
   }
 
