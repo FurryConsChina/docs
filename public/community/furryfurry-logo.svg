@@ -1,0 +1,441 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="_å¾å±_1" data-name="å¾å± 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 855.03 174.82" style="">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20 {
+        fill: none;
+      }
+
+      .cls-21 {
+        fill: #e2905b;
+      }
+
+      .cls-22 {
+        fill: #f1b988;
+      }
+
+      .cls-23 {
+        fill: #e18f59;
+      }
+
+      .cls-24 {
+        fill: #df8953;
+      }
+
+      .cls-25 {
+        fill: #e18f5a;
+      }
+
+      .cls-26 {
+        fill: url(#_æªå½åçæ¸å_5-14);
+      }
+
+      .cls-27 {
+        fill: url(#_æªå½åçæ¸å_5-20);
+      }
+
+      .cls-28 {
+        fill: #e9a471;
+      }
+
+      .cls-29 {
+        fill: #ecab79;
+      }
+
+      .cls-30 {
+        fill: #e18e58;
+      }
+
+      .cls-31 {
+        fill: #eeb07e;
+      }
+
+      .cls-32 {
+        fill: #f0b584;
+      }
+
+      .cls-33 {
+        fill: #e49661;
+      }
+
+      .cls-2 {
+        stroke: url(#_æªå½åçæ¸å_5-13);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20 {
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+
+      .cls-3 {
+        stroke: url(#_æªå½åçæ¸å_5-12);
+      }
+
+      .cls-4 {
+        stroke: url(#_æªå½åçæ¸å_5-11);
+      }
+
+      .cls-5 {
+        stroke: url(#_æªå½åçæ¸å_5-10);
+      }
+
+      .cls-6 {
+        stroke: url(#_æªå½åçæ¸å_5-18);
+      }
+
+      .cls-7 {
+        stroke: url(#_æªå½åçæ¸å_5-17);
+      }
+
+      .cls-8 {
+        stroke: url(#_æªå½åçæ¸å_5-19);
+      }
+
+      .cls-9 {
+        stroke: url(#_æªå½åçæ¸å_5-15);
+      }
+
+      .cls-10 {
+        stroke: url(#_æªå½åçæ¸å_5-21);
+      }
+
+      .cls-11 {
+        stroke: url(#_æªå½åçæ¸å_5-16);
+      }
+
+      .cls-34 {
+        fill: #f2ba89;
+      }
+
+      .cls-35 {
+        fill: #f0b583;
+      }
+
+      .cls-36 {
+        fill: #e08d57;
+      }
+
+      .cls-12 {
+        stroke: url(#_æªå½åçæ¸å_5);
+      }
+
+      .cls-37 {
+        fill: #e59a65;
+      }
+
+      .cls-38 {
+        fill: #edae7c;
+      }
+
+      .cls-39 {
+        fill: #eaa673;
+      }
+
+      .cls-40 {
+        fill: #e9a26f;
+      }
+
+      .cls-41 {
+        fill: #e3925d;
+      }
+
+      .cls-13 {
+        stroke: url(#_æªå½åçæ¸å_5-8);
+      }
+
+      .cls-14 {
+        stroke: url(#_æªå½åçæ¸å_5-2);
+      }
+
+      .cls-15 {
+        stroke: url(#_æªå½åçæ¸å_5-3);
+      }
+
+      .cls-16 {
+        stroke: url(#_æªå½åçæ¸å_5-7);
+      }
+
+      .cls-17 {
+        stroke: url(#_æªå½åçæ¸å_5-4);
+      }
+
+      .cls-18 {
+        stroke: url(#_æªå½åçæ¸å_5-5);
+      }
+
+      .cls-19 {
+        stroke: url(#_æªå½åçæ¸å_5-9);
+      }
+
+      .cls-20 {
+        stroke: url(#_æªå½åçæ¸å_5-6);
+      }
+
+      .cls-42 {
+        fill: #e08b55;
+      }
+
+      .cls-43 {
+        fill: #e8a06c;
+      }
+
+      .cls-44 {
+        fill: #e2915c;
+      }
+
+      .cls-45 {
+        fill: #efb482;
+      }
+
+      .cls-46 {
+        fill: #e3935e;
+      }
+
+      .cls-47 {
+        fill: #eba876;
+      }
+
+      .cls-48 {
+        fill: #df8a54;
+      }
+
+      .cls-49 {
+        fill: #eba977;
+      }
+
+      .cls-50 {
+        fill: #e8a16d;
+      }
+
+      .cls-51 {
+        fill: #eeb280;
+      }
+
+      .cls-52 {
+        fill: #fff;
+      }
+
+      .cls-53 {
+        fill: #e08c56;
+      }
+
+      .cls-54 {
+        fill: #eaa774;
+      }
+
+      .cls-55 {
+        fill: #eaa572;
+      }
+
+      .cls-56 {
+        fill: #f1b887;
+      }
+
+      .cls-57 {
+        fill: #f0b685;
+      }
+
+      .cls-58 {
+        fill: #ecaa78;
+      }
+
+      .cls-59 {
+        fill: #e3945f;
+      }
+
+      .cls-60 {
+        fill: #e49560;
+      }
+
+      .cls-61 {
+        fill: #e79e6a;
+      }
+
+      .cls-62 {
+        fill: #edaf7d;
+      }
+
+      .cls-63 {
+        fill: #edad7b;
+      }
+
+      .cls-64 {
+        fill: #e79d69;
+      }
+
+      .cls-65 {
+        fill: #e69c68;
+      }
+
+      .cls-66 {
+        fill: #e49762;
+      }
+
+      .cls-67 {
+        fill: #e69b66;
+      }
+
+      .cls-68 {
+        fill: #e9a370;
+      }
+
+      .cls-69 {
+        fill: #e79f6b;
+      }
+
+      .cls-70 {
+        fill: #efb381;
+      }
+
+      .cls-71 {
+        fill: #e69c67;
+      }
+
+      .cls-72 {
+        fill: #ecac7a;
+      }
+
+      .cls-73 {
+        fill: #f2bb8a;
+      }
+
+      .cls-74 {
+        fill: #f1b786;
+      }
+
+      .cls-75 {
+        fill: #eba875;
+      }
+
+      .cls-76 {
+        fill: #e59964;
+      }
+
+      .cls-77 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-78 {
+        fill: #e59863;
+      }
+
+      .cls-79 {
+        fill: #eeb17f;
+      }
+    </style>
+    <linearGradient id="_æªå½åçæ¸å_5" data-name="æªå½åçæ¸å 5" x1="214.33" y1="82.95" x2="289.81" y2="82.95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2bb8a"></stop>
+      <stop offset="1" stop-color="#df8953"></stop>
+    </linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-2" data-name="æªå½åçæ¸å 5" x1="225.15" y1="85.52" x2="290.9" y2="85.52" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-3" data-name="æªå½åçæ¸å 5" x1="299.69" y1="93.23" x2="367.88" y2="93.23" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-4" data-name="æªå½åçæ¸å 5" x1="381.5" y1="92.43" x2="430.63" y2="92.43" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-5" data-name="æªå½åçæ¸å 5" x1="436.22" y1="93.55" x2="485.36" y2="93.55" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-6" data-name="æªå½åçæ¸å 5" x1="492.85" y1="93.6" x2="566.08" y2="93.6" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-7" data-name="æªå½åçæ¸å 5" x1="517.88" y1="149.63" x2="537.88" y2="149.63" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-8" data-name="æªå½åçæ¸å 5" x1="696.29" y1="104.12" x2="737.02" y2="104.12" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-9" data-name="æªå½åçæ¸å 5" x1="727.66" y1="88.55" x2="762.74" y2="88.55" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-10" data-name="æªå½åçæ¸å 5" x1="768.92" y1="52.63" x2="807.97" y2="52.63" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-11" data-name="æªå½åçæ¸å 5" x1="766.37" y1="80.77" x2="805.42" y2="80.77" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-12" data-name="æªå½åçæ¸å 5" x1="759.04" y1="104.12" x2="835.73" y2="104.12" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-13" data-name="æªå½åçæ¸å 5" x1="804.52" y1="93.6" x2="824.52" y2="93.6" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-14" data-name="æªå½åçæ¸å 5" x1="21.48" y1="32.49" x2="86.72" y2="32.49" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-15" data-name="æªå½åçæ¸å 5" x1="621.43" y1="62.13" x2="645.44" y2="62.13" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-16" data-name="æªå½åçæ¸å 5" x1="724.02" y1="98.18" x2="744.02" y2="98.18" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-17" data-name="æªå½åçæ¸å 5" x1="706.93" y1="44.52" x2="762.74" y2="44.52" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-18" data-name="æªå½åçæ¸å 5" x1="700.79" y1="71.18" x2="767.25" y2="71.18" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-19" data-name="æªå½åçæ¸å 5" x1="590.11" y1="108.16" x2="680.15" y2="108.16" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-20" data-name="æªå½åçæ¸å 5" x1="602.38" y1="108.16" x2="667.87" y2="108.16" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <linearGradient id="_æªå½åçæ¸å_5-21" data-name="æªå½åçæ¸å 5" x1="582.26" y1="44.52" x2="690.23" y2="44.52" xlink:href="#_æªå½åçæ¸å_5"></linearGradient>
+    <clipPath id="clippath">
+      <path class="cls-1 QFZCCFtB_0" d="M131.2,27.56l-.03-.04s-.49-.25-1.36-.65c-5.95-2.9-12.38-5.04-19.18-6.25-.86-.15-1.72-.22-2.57-.2-9.62-.85-18.49,2.17-18.02,16.49.4,12.16,8.45,22.94,20.19,26.11.44.12.88.23,1.33.33,9.59,2.18,18.41,7.08,24.69,14.66.04.04.07.09.11.13,7.52,9.12,9.25,21.78,4.61,32.65-7.11,16.67-23.58,28.41-42.78,28.58-26.04.22-47.35-21.71-47.35-47.75v-4.77h26.32c7,0,13.02-5.38,13.35-12.37.35-7.47-5.6-13.63-12.99-13.63H24.85v30.65c0,40.16,32.07,73.48,72.22,73.87,40.55.39,73.66-32.48,73.66-72.94,0-27.96-15.76-52.66-39.52-64.87Z"></path>
+    </clipPath>
+  </defs>
+  <path class="cls-12 QFZCCFtB_1" d="M279.81,44.52h-50.34c-2.85,0-5.15,2.31-5.15,5.15v71.7"></path>
+  <path class="cls-14 QFZCCFtB_2" d="M235.15,85.52L280.9,85.52"></path>
+  <path class="cls-15 QFZCCFtB_3" d="M309.69,66.05v36.74c0,9.73,8.92,17.61,19.93,17.61h28.26v-54.35"></path>
+  <path class="cls-17 QFZCCFtB_4" d="M391.5,120.4v-28.9c0-8.62,5.22-16.45,13.37-20.06l15.77-6.99"></path>
+  <path class="cls-18 QFZCCFtB_5" d="M446.22,120.4v-27.74c0-8.27,5.22-15.79,13.37-19.25l15.77-6.71"></path>
+  <path class="cls-20 QFZCCFtB_6" d="M502.85,66.01l20.41,52.51c1.49,3.4,6.25,3.58,7.99.3l24.84-52.81"></path>
+  <path class="cls-16 QFZCCFtB_7" d="M527.88,146.83L527.88,152.43"></path>
+  <path class="cls-13 QFZCCFtB_8" d="M727.02,85.52L706.29,122.73"></path>
+  <path class="cls-19 QFZCCFtB_9" d="M737.66,75.67L752.74,101.44"></path>
+  <path class="cls-5 QFZCCFtB_10" d="M778.92,45.07L797.97,60.19"></path>
+  <path class="cls-4 QFZCCFtB_11" d="M776.37,73.21L795.42,88.34"></path>
+  <path class="cls-3 QFZCCFtB_12" d="M769.04,104.12L825.73,104.12"></path>
+  <path class="cls-2 QFZCCFtB_13" d="M814.52,40.93L814.52,146.27"></path>
+  <path class="cls-26 QFZCCFtB_14" d="M73.72,45.49h-39.24c-7.18,0-13-5.82-13-13s5.82-13,13-13h39.24c7.18,0,13,5.82,13,13s-5.82,13-13,13Z"></path>
+  <path class="cls-9 QFZCCFtB_15" d="M635.44,52.33L631.43,71.94"></path>
+  <path class="cls-11 QFZCCFtB_16" d="M734.02,51.57L734.02,144.78"></path>
+  <path class="cls-7 QFZCCFtB_17" d="M716.93,44.52L752.74,44.52"></path>
+  <path class="cls-6 QFZCCFtB_18" d="M710.79,71.18L757.25,71.18"></path>
+  <path class="cls-8 QFZCCFtB_19" width="70.04" height="73.96" d="M 635.11,71.18 L 635.15,71.18 A 35,35,0,0,1,670.15,106.18 L 670.15,110.13999999999999 A 35,35,0,0,1,635.15,145.14 L 635.11,145.14 A 35,35,0,0,1,600.11,110.13999999999999 L 600.11,106.18 A 35,35,0,0,1,635.11,71.18"></path>
+  <path class="cls-27 QFZCCFtB_20" d="M602.38,108.16A32.75,32.75 0,1,1 667.88,108.16A32.75,32.75 0,1,1 602.38,108.16"></path>
+  <g>
+    <path class="cls-52 QFZCCFtB_21" d="M647.16,105.87c-2.59-.52-4.38-2.31-7.05-2.88-3.64-.78-7.83,1.06-10.12,3.93-3.67,4.62-.96,8.46-2.96,12.96-.54,1.22-1.33,2.15-1.86,3.4-3.21,7.6,3.74,15.39,11.67,12.8,4.84-1.58,5.57-5.11,9.06-7.83,3.34-2.6,7.44-1.8,10.82-4.37,6.18-4.72,6.32-14.52-1.51-17.5-3.07-1.17-5.19.07-8.05-.51Z"></path>
+    <path class="cls-52 QFZCCFtB_22" d="M625.78,106.31c7.17-7.28-7.79-20.87-14.16-12.47-5.38,7.1,7.55,19.18,14.16,12.47Z"></path>
+    <path class="cls-52 QFZCCFtB_23" d="M637.34,98.8c7.95-1.94,6.63-17-1.51-18.9-4.87-1.14-7.9,4.28-7.9,8.47,0,4.74,3.88,11.78,9.41,10.43Z"></path>
+    <path class="cls-52 QFZCCFtB_24" d="M655.21,86.1c-2.8-1.3-5.37.18-7.11,2.46-3.3,4.34-1.97,14.6,4.34,15.23,7.88.79,10.02-14.31,2.77-17.68Z"></path>
+    <path class="cls-52 QFZCCFtB_25" d="M620.98,113.97c-1.46-1.35-2.84-1.95-3.51-2.18-4.01-1.65-9.61-.48-10.3,4.45-.59,4.17,3.54,8.16,7.28,9.27,8.44,2.51,12.85-6,6.54-11.53Z"></path>
+  </g>
+  <path class="cls-10 QFZCCFtB_26" d="M592.26,44.52L680.23,44.52"></path>
+  <g class="cls-77">
+    <path class="cls-73 QFZCCFtB_27" width="0" height="146.19" d="M24.85 19.57 L24.85 19.57 L24.85 165.76 L24.85 165.76 Z"></path>
+    <path class="cls-73 QFZCCFtB_28" width="2.65" height="146.19" d="M24.85 19.57 L27.5 19.57 L27.5 165.76 L24.85 165.76 Z"></path>
+    <path class="cls-34 QFZCCFtB_29" width="2.65" height="146.19" d="M27.5 19.57 L30.15 19.57 L30.15 165.76 L27.5 165.76 Z"></path>
+    <path class="cls-22 QFZCCFtB_30" width="2.65" height="146.19" d="M30.15 19.57 L32.8 19.57 L32.8 165.76 L30.15 165.76 Z"></path>
+    <path class="cls-56 QFZCCFtB_31" width="2.65" height="146.19" d="M32.8 19.57 L35.449999999999996 19.57 L35.449999999999996 165.76 L32.8 165.76 Z"></path>
+    <path class="cls-74 QFZCCFtB_32" width="2.65" height="146.19" d="M35.46 19.57 L38.11 19.57 L38.11 165.76 L35.46 165.76 Z"></path>
+    <path class="cls-57 QFZCCFtB_33" width="2.65" height="146.19" d="M38.11 19.57 L40.76 19.57 L40.76 165.76 L38.11 165.76 Z"></path>
+    <path class="cls-32 QFZCCFtB_34" width="2.65" height="146.19" d="M40.76 19.57 L43.41 19.57 L43.41 165.76 L40.76 165.76 Z"></path>
+    <path class="cls-35 QFZCCFtB_35" width="2.65" height="146.19" d="M43.41 19.57 L46.059999999999995 19.57 L46.059999999999995 165.76 L43.41 165.76 Z"></path>
+    <path class="cls-45 QFZCCFtB_36" width="2.65" height="146.19" d="M46.07 19.57 L48.72 19.57 L48.72 165.76 L46.07 165.76 Z"></path>
+    <path class="cls-70 QFZCCFtB_37" width="2.65" height="146.19" d="M48.72 19.57 L51.37 19.57 L51.37 165.76 L48.72 165.76 Z"></path>
+    <path class="cls-51 QFZCCFtB_38" width="2.65" height="146.19" d="M51.37 19.57 L54.019999999999996 19.57 L54.019999999999996 165.76 L51.37 165.76 Z"></path>
+    <path class="cls-79 QFZCCFtB_39" width="2.65" height="146.19" d="M54.02 19.57 L56.67 19.57 L56.67 165.76 L54.02 165.76 Z"></path>
+    <path class="cls-31 QFZCCFtB_40" width="2.65" height="146.19" d="M56.67 19.57 L59.32 19.57 L59.32 165.76 L56.67 165.76 Z"></path>
+    <path class="cls-62 QFZCCFtB_41" width="2.65" height="146.19" d="M59.33 19.57 L61.98 19.57 L61.98 165.76 L59.33 165.76 Z"></path>
+    <path class="cls-38 QFZCCFtB_42" width="2.65" height="146.19" d="M61.98 19.57 L64.63 19.57 L64.63 165.76 L61.98 165.76 Z"></path>
+    <path class="cls-63 QFZCCFtB_43" width="2.65" height="146.19" d="M64.63 19.57 L67.28 19.57 L67.28 165.76 L64.63 165.76 Z"></path>
+    <path class="cls-72 QFZCCFtB_44" width="2.65" height="146.19" d="M67.28 19.57 L69.93 19.57 L69.93 165.76 L67.28 165.76 Z"></path>
+    <path class="cls-29 QFZCCFtB_45" width="2.65" height="146.19" d="M69.94 19.57 L72.59 19.57 L72.59 165.76 L69.94 165.76 Z"></path>
+    <path class="cls-58 QFZCCFtB_46" width="2.65" height="146.19" d="M72.59 19.57 L75.24000000000001 19.57 L75.24000000000001 165.76 L72.59 165.76 Z"></path>
+    <path class="cls-49 QFZCCFtB_47" width="2.65" height="146.19" d="M75.24 19.57 L77.89 19.57 L77.89 165.76 L75.24 165.76 Z"></path>
+    <path class="cls-47 QFZCCFtB_48" width="2.65" height="146.19" d="M77.89 19.57 L80.54 19.57 L80.54 165.76 L77.89 165.76 Z"></path>
+    <path class="cls-75 QFZCCFtB_49" width="2.65" height="146.19" d="M80.55 19.57 L83.2 19.57 L83.2 165.76 L80.55 165.76 Z"></path>
+    <path class="cls-54 QFZCCFtB_50" width="2.65" height="146.19" d="M83.2 19.57 L85.85000000000001 19.57 L85.85000000000001 165.76 L83.2 165.76 Z"></path>
+    <path class="cls-39 QFZCCFtB_51" width="2.65" height="146.19" d="M85.85 19.57 L88.5 19.57 L88.5 165.76 L85.85 165.76 Z"></path>
+    <path class="cls-55 QFZCCFtB_52" width="2.65" height="146.19" d="M88.5 19.57 L91.15 19.57 L91.15 165.76 L88.5 165.76 Z"></path>
+    <path class="cls-28 QFZCCFtB_53" width="2.65" height="146.19" d="M91.16 19.57 L93.81 19.57 L93.81 165.76 L91.16 165.76 Z"></path>
+    <path class="cls-68 QFZCCFtB_54" width="2.65" height="146.19" d="M93.81 19.57 L96.46000000000001 19.57 L96.46000000000001 165.76 L93.81 165.76 Z"></path>
+    <path class="cls-40 QFZCCFtB_55" width="2.65" height="146.19" d="M96.46 19.57 L99.11 19.57 L99.11 165.76 L96.46 165.76 Z"></path>
+    <path class="cls-50 QFZCCFtB_56" width="2.65" height="146.19" d="M99.11 19.57 L101.76 19.57 L101.76 165.76 L99.11 165.76 Z"></path>
+    <path class="cls-43 QFZCCFtB_57" width="2.65" height="146.19" d="M101.77 19.57 L104.42 19.57 L104.42 165.76 L101.77 165.76 Z"></path>
+    <path class="cls-69 QFZCCFtB_58" width="2.65" height="146.19" d="M104.42 19.57 L107.07000000000001 19.57 L107.07000000000001 165.76 L104.42 165.76 Z"></path>
+    <path class="cls-61 QFZCCFtB_59" width="2.65" height="146.19" d="M107.07 19.57 L109.72 19.57 L109.72 165.76 L107.07 165.76 Z"></path>
+    <path class="cls-64 QFZCCFtB_60" width="2.65" height="146.19" d="M109.72 19.57 L112.37 19.57 L112.37 165.76 L109.72 165.76 Z"></path>
+    <path class="cls-65 QFZCCFtB_61" width="2.65" height="146.19" d="M112.37 19.57 L115.02000000000001 19.57 L115.02000000000001 165.76 L112.37 165.76 Z"></path>
+    <path class="cls-71 QFZCCFtB_62" width="2.65" height="146.19" d="M115.03 19.57 L117.68 19.57 L117.68 165.76 L115.03 165.76 Z"></path>
+    <path class="cls-67 QFZCCFtB_63" width="2.65" height="146.19" d="M117.68 19.57 L120.33000000000001 19.57 L120.33000000000001 165.76 L117.68 165.76 Z"></path>
+    <path class="cls-37 QFZCCFtB_64" width="2.65" height="146.19" d="M120.33 19.57 L122.98 19.57 L122.98 165.76 L120.33 165.76 Z"></path>
+    <path class="cls-76 QFZCCFtB_65" width="2.65" height="146.19" d="M122.98 19.57 L125.63000000000001 19.57 L125.63000000000001 165.76 L122.98 165.76 Z"></path>
+    <path class="cls-78 QFZCCFtB_66" width="2.65" height="146.19" d="M125.64 19.57 L128.29 19.57 L128.29 165.76 L125.64 165.76 Z"></path>
+    <path class="cls-66 QFZCCFtB_67" width="2.65" height="146.19" d="M128.29 19.57 L130.94 19.57 L130.94 165.76 L128.29 165.76 Z"></path>
+    <path class="cls-33 QFZCCFtB_68" width="2.65" height="146.19" d="M130.94 19.57 L133.59 19.57 L133.59 165.76 L130.94 165.76 Z"></path>
+    <path class="cls-60 QFZCCFtB_69" width="2.65" height="146.19" d="M133.59 19.57 L136.24 19.57 L136.24 165.76 L133.59 165.76 Z"></path>
+    <path class="cls-59 QFZCCFtB_70" width="2.65" height="146.19" d="M136.25 19.57 L138.9 19.57 L138.9 165.76 L136.25 165.76 Z"></path>
+    <path class="cls-46 QFZCCFtB_71" width="2.65" height="146.19" d="M138.9 19.57 L141.55 19.57 L141.55 165.76 L138.9 165.76 Z"></path>
+    <path class="cls-41 QFZCCFtB_72" width="2.65" height="146.19" d="M141.55 19.57 L144.20000000000002 19.57 L144.20000000000002 165.76 L141.55 165.76 Z"></path>
+    <path class="cls-44 QFZCCFtB_73" width="2.65" height="146.19" d="M144.2 19.57 L146.85 19.57 L146.85 165.76 L144.2 165.76 Z"></path>
+    <path class="cls-21 QFZCCFtB_74" width="2.65" height="146.19" d="M146.86 19.57 L149.51000000000002 19.57 L149.51000000000002 165.76 L146.86 165.76 Z"></path>
+    <path class="cls-25 QFZCCFtB_75" width="2.65" height="146.19" d="M149.51 19.57 L152.16 19.57 L152.16 165.76 L149.51 165.76 Z"></path>
+    <path class="cls-23 QFZCCFtB_76" width="2.65" height="146.19" d="M152.16 19.57 L154.81 19.57 L154.81 165.76 L152.16 165.76 Z"></path>
+    <path class="cls-30 QFZCCFtB_77" width="2.65" height="146.19" d="M154.81 19.57 L157.46 19.57 L157.46 165.76 L154.81 165.76 Z"></path>
+    <path class="cls-36 QFZCCFtB_78" width="2.65" height="146.19" d="M157.47 19.57 L160.12 19.57 L160.12 165.76 L157.47 165.76 Z"></path>
+    <path class="cls-53 QFZCCFtB_79" width="2.65" height="146.19" d="M160.12 19.57 L162.77 19.57 L162.77 165.76 L160.12 165.76 Z"></path>
+    <path class="cls-42 QFZCCFtB_80" width="2.65" height="146.19" d="M162.77 19.57 L165.42000000000002 19.57 L165.42000000000002 165.76 L162.77 165.76 Z"></path>
+    <path class="cls-48 QFZCCFtB_81" width="2.65" height="146.19" d="M165.42 19.57 L168.07 19.57 L168.07 165.76 L165.42 165.76 Z"></path>
+    <path class="cls-24 QFZCCFtB_82" width="2.65" height="146.19" d="M168.07 19.57 L170.72 19.57 L170.72 165.76 L168.07 165.76 Z"></path>
+  </g>
+<style data-made-with="vivus-instant">.QFZCCFtB_0{stroke-dasharray:749 751;stroke-dashoffset:750;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_1{stroke-dasharray:131 133;stroke-dashoffset:132;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_2{stroke-dasharray:46 48;stroke-dashoffset:47;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_3{stroke-dasharray:149 151;stroke-dashoffset:150;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_4{stroke-dasharray:72 74;stroke-dashoffset:73;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_5{stroke-dasharray:70 72;stroke-dashoffset:71;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_6{stroke-dasharray:125 127;stroke-dashoffset:126;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_7{stroke-dasharray:6 8;stroke-dashoffset:7;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_8{stroke-dasharray:43 45;stroke-dashoffset:44;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_9{stroke-dasharray:30 32;stroke-dashoffset:31;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_10{stroke-dasharray:25 27;stroke-dashoffset:26;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_11{stroke-dasharray:25 27;stroke-dashoffset:26;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_12{stroke-dasharray:57 59;stroke-dashoffset:58;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_13{stroke-dasharray:106 108;stroke-dashoffset:107;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_14{stroke-dasharray:161 163;stroke-dashoffset:162;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_15{stroke-dasharray:21 23;stroke-dashoffset:22;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_16{stroke-dasharray:94 96;stroke-dashoffset:95;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_17{stroke-dasharray:36 38;stroke-dashoffset:37;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_18{stroke-dasharray:47 49;stroke-dashoffset:48;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_19{stroke-dasharray:228 230;stroke-dashoffset:229;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_20{stroke-dasharray:206 208;stroke-dashoffset:207;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_21{stroke-dasharray:112 114;stroke-dashoffset:113;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_22{stroke-dasharray:54 56;stroke-dashoffset:55;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_23{stroke-dasharray:54 56;stroke-dashoffset:55;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_24{stroke-dasharray:50 52;stroke-dashoffset:51;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_25{stroke-dasharray:50 52;stroke-dashoffset:51;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_26{stroke-dasharray:88 90;stroke-dashoffset:89;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_27{stroke-dasharray:293 295;stroke-dashoffset:294;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_28{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_29{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_30{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_31{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_32{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_33{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_34{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_35{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_36{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_37{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_38{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_39{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_40{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_41{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_42{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_43{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_44{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_45{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_46{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_47{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_48{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_49{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_50{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_51{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_52{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_53{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_54{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_55{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_56{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_57{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_58{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_59{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_60{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_61{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_62{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_63{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_64{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_65{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_66{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_67{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_68{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_69{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_70{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_71{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_72{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_73{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_74{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_75{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_76{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_77{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_78{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_79{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_80{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_81{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}.QFZCCFtB_82{stroke-dasharray:298 300;stroke-dashoffset:299;animation:QFZCCFtB_draw 2000ms ease 0ms forwards;}@keyframes QFZCCFtB_draw{100%{stroke-dashoffset:0;}}@keyframes QFZCCFtB_fade{0%{stroke-opacity:1;}93.54838709677419%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

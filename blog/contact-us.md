@@ -1,7 +1,15 @@
 ---
-slug: contact-us
+slug: blog/contact-us
 title: 联系我们
-authors: paiji
+description: 通过 QQ、Discord、GitHub 或电子邮件联系兽展日历。
+type: blog
+date: 2024-12-18
+authors:
+  - name: PaiJi
+    url: https://github.com/paiji
+    avatar: https://github.com/paiji.png
+sidebar:
+  order: 1
 ---
 有关我们的联系方式，请参考本文。
 <!-- truncate -->

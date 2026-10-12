@@ -1,0 +1,728 @@
+---
+import PageLayout from "blume/components/layout/PageLayout.astro";
+import data from "blume:data";
+
+const { config } = data;
+---
+
+<PageLayout
+  site={{ title: config.title, description: config.description }}
+  logo={config.logo}
+  banner={config.banner}
+  analytics={config.analytics}
+  navigation={data.navigation}
+  favicon={config.favicon}
+  fontCssVars={data.fontCssVars}
+  themeMode={config.theme.mode}
+  searchEnabled={config.search.enabled}
+  siteUrl={config.site}
+  ogEnabled={config.og.enabled}
+  page={{
+    title: "兽展日历文档｜开放、可靠的兽展数据",
+    description: config.description,
+    route: "/",
+  }}
+>
+  <main class="home">
+    <section class="hero">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="hero-copy">
+        <h1>
+          <img class="hero-title-logo" src="/logo.svg" alt="" />
+          <span>来！<br />整点有趣的</span>
+        </h1>
+        <p>
+          兽展日历提供免费的兽展数据接口，帮助开发者构建有趣的社区工具
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="/docs">
+            开始接入
+            <span aria-hidden="true">→</span>
+          </a>
+          <a class="button button-secondary" href="/blog">
+            了解我们
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="logo-card">
+          <img src="/logo.svg" alt="" />
+          <div>
+            <span>下一场相遇</span>
+            <strong>正在日历上发生</strong>
+          </div>
+        </div>
+        <div class="event-card event-card-top">
+          <span class="event-icon">✦</span>
+          <div>
+            <small>数据接口</small>
+            <strong>简单、稳定、好接入</strong>
+          </div>
+        </div>
+        <div class="event-card event-card-bottom">
+          <span class="event-icon event-icon-purple">⌁</span>
+          <div>
+            <small>社区共建</small>
+            <strong>连接每一位毛毛</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <div class="section-heading">
+        <h2>核心能力</h2>
+        <p>把复杂的基础工作交给我们，你只需要专注于好点子。</p>
+      </div>
+
+      <div class="feature-grid">
+        <a class="feature feature-coral" href="/docs">
+          <span class="feature-index">01</span>
+          <div class="feature-icon">⌘</div>
+          <h3>快速开始</h3>
+          <p>了解接口地址、鉴权方式与开放能力，几分钟完成第一次调用。</p>
+          <span class="feature-link">阅读指南 →</span>
+        </a>
+
+        <a class="feature feature-purple" href="/docs/活动/list-open-events">
+          <span class="feature-index">02</span>
+          <div class="feature-icon">◫</div>
+          <h3>展会 API</h3>
+          <p>按日期、名称和组织检索展会，获得构建产品所需的结构化数据。</p>
+          <span class="feature-link">查看接口 →</span>
+        </a>
+
+        <a class="feature feature-gold" href="/blog/contact-us">
+          <span class="feature-index">03</span>
+          <div class="feature-icon">♡</div>
+          <h3>一起共建</h3>
+          <p>发现遗漏、需要新字段或有合作想法？欢迎来到社区和我们聊聊。</p>
+          <span class="feature-link">联系我们 →</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="feature-section" aria-labelledby="community-cases-title">
+      <div class="section-heading">
+        <h2 id="community-cases-title">社区案例</h2>
+      </div>
+      <div class="community-logo-wall">
+        <a class="community-logo" href="https://kemono.games/zh-Hans" target="_blank" rel="noopener noreferrer" aria-label="访问兽人控游戏库 Kemono Games">
+          <img class="community-logo-mark" src="/community/kemono-games-logo.png" alt="" width="64" height="64" loading="lazy" />
+          <span class="community-logo-name" aria-hidden="true">
+            <strong>兽人控游戏库</strong>
+            <span>Kemono Games</span>
+          </span>
+        </a>
+        <a class="community-logo" href="https://www.furwall.net/" target="_blank" rel="noopener noreferrer" aria-label="访问绒毛墙 Furwall">
+          <img class="community-logo-wordmark" src="/community/furwall-logo.webp" alt="绒毛墙 Furwall" width="228" height="50" loading="lazy" />
+        </a>
+        <a class="community-logo" href="https://furryfandomclub.cn/" target="_blank" rel="noopener noreferrer" aria-label="访问迷兽互联 FurryFandomClub">
+          <img class="community-logo-mark" src="/community/furryfandomclub-logo.png" alt="" width="64" height="64" loading="lazy" />
+          <span class="community-logo-name" aria-hidden="true">
+            <strong>迷兽互联</strong>
+            <span>FurryFandomClub</span>
+          </span>
+        </a>
+        <a class="community-logo" href="https://fursuit.tv/" target="_blank" rel="noopener noreferrer" aria-label="访问兽频道 Fursuit.TV">
+          <img class="community-logo-mark" src="/community/fursuit-tv-logo.png" alt="" width="64" height="64" loading="lazy" />
+          <span class="community-logo-name" aria-hidden="true">
+            <strong>兽频道</strong>
+            <span>Fursuit.TV</span>
+          </span>
+        </a>
+        <a class="community-logo" href="https://furryfurry.cn/" target="_blank" rel="noopener noreferrer" aria-label="访问 Furry百科">
+          <img class="community-logo-wordmark" src="/community/furryfurry-logo.svg" alt="Furry百科" width="228" height="47" loading="lazy" />
+        </a>
+        <a class="community-logo" href="https://wikifur.com/" target="_blank" rel="noopener noreferrer" aria-label="访问 WikiFur">
+          <img class="community-logo-signature" src="/community/wikifur-logo.png" alt="WikiFur" width="155" height="100" loading="lazy" />
+        </a>
+        <a class="community-logo" href="https://pawport.me/" target="_blank" rel="noopener noreferrer" aria-label="访问 PawPort 兽展足迹">
+          <img class="community-logo-mark" src="/community/pawport-logo.svg" alt="" width="64" height="64" loading="lazy" />
+          <span class="community-logo-name" aria-hidden="true">
+            <strong>PawPort</strong>
+            <span>兽展足迹</span>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div>
+        <h2>连接你我，从此开始。</h2>
+      </div>
+      <a class="button button-light" href="/docs">查看开发文档 →</a>
+    </section>
+  </main>
+
+  <footer slot="footer" class="footer">
+    <div>
+      <img src="/logo.svg" alt="" />
+      <span>兽展日历文档</span>
+    </div>
+    <p>用 🍜 和 ❤️ 构建 · FurryConsChina</p>
+  </footer>
+</PageLayout>
+
+<style>
+  .home {
+    color: var(--fcc-ink);
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 84% 13%, rgba(255, 181, 190, 0.26), transparent 25rem),
+      radial-gradient(circle at 8% 42%, rgba(164, 144, 228, 0.12), transparent 24rem),
+      var(--fcc-cream);
+  }
+
+
+  .hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1.08fr) minmax(22rem, 0.92fr);
+    align-items: center;
+    min-height: 43rem;
+    max-width: 76rem;
+    margin: 0 auto;
+    padding: 6.5rem 2rem 5rem;
+  }
+
+  .hero-copy {
+    position: relative;
+    z-index: 2;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 0.3em;
+    margin: 1.5rem 0 1.35rem;
+    font-size: clamp(2rem, 4vw, 3.9rem);
+    line-height: 1.05;
+    letter-spacing: -0.065em;
+  }
+
+  .hero-title-logo {
+    flex: none;
+    width: 2.1em;
+    height: 2.1em;
+    object-fit: contain;
+  }
+
+  h1 > span {
+    white-space: nowrap;
+  }
+
+  .hero-copy > p {
+    max-width: 34rem;
+    margin: 0;
+    color: var(--fcc-muted);
+    font-size: 1.12rem;
+    line-height: 1.85;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 2rem;
+  }
+
+  .button {
+    display: inline-flex;
+    gap: 0.65rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    padding: 0 1.3rem;
+    color: inherit;
+    font-size: 0.92rem;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid var(--fcc-border);
+    border-radius: 0.9rem;
+    transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+  }
+
+  .button:hover {
+    transform: translateY(-2px);
+  }
+
+  .button-primary {
+    color: white;
+    background: linear-gradient(135deg, var(--fcc-coral), var(--fcc-coral-strong));
+    border-color: transparent;
+    box-shadow: 0 0.8rem 2rem rgba(223, 63, 80, 0.22);
+  }
+
+  .button-secondary {
+    background: var(--fcc-card);
+    backdrop-filter: blur(12px);
+  }
+
+  .hero-visual {
+    position: relative;
+    min-height: 30rem;
+  }
+
+  .hero-glow {
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    filter: blur(1px);
+  }
+
+  .hero-glow-one {
+    top: 5rem;
+    right: -12rem;
+    width: 27rem;
+    height: 27rem;
+    background: rgba(255, 137, 151, 0.14);
+  }
+
+  .hero-glow-two {
+    bottom: -4rem;
+    left: 35%;
+    width: 18rem;
+    height: 18rem;
+    background: rgba(139, 120, 215, 0.1);
+  }
+
+  .orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px dashed rgba(239, 91, 104, 0.24);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(-18deg);
+  }
+
+  .orbit-one {
+    width: 27rem;
+    height: 21rem;
+  }
+
+  .orbit-two {
+    width: 20rem;
+    height: 28rem;
+    border-color: rgba(139, 120, 215, 0.2);
+    transform: translate(-50%, -50%) rotate(28deg);
+  }
+
+  .logo-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: min(23rem, 82%);
+    padding: 1.15rem;
+    background: var(--fcc-card);
+    border: 1px solid var(--fcc-border);
+    border-radius: 1.5rem;
+    box-shadow: 0 2rem 5rem rgba(60, 40, 68, 0.15);
+    backdrop-filter: blur(22px);
+    transform: translate(-50%, -50%) rotate(-3deg);
+  }
+
+  .logo-card img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0.8rem 1.8rem rgba(223, 63, 80, 0.22);
+  }
+
+  .logo-card span,
+  .event-card small {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--fcc-muted);
+    font-size: 0.72rem;
+  }
+
+  .logo-card strong,
+  .event-card strong {
+    font-size: 0.95rem;
+  }
+
+  .event-card {
+    position: absolute;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    min-width: 13.5rem;
+    padding: 0.85rem 1rem;
+    background: var(--fcc-card);
+    border: 1px solid var(--fcc-border);
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2.8rem rgba(50, 34, 58, 0.11);
+    backdrop-filter: blur(18px);
+  }
+
+  .event-card-top {
+    top: 4.2rem;
+    right: -0.5rem;
+    transform: rotate(4deg);
+  }
+
+  .event-card-bottom {
+    bottom: 4rem;
+    left: -0.8rem;
+    transform: rotate(2deg);
+  }
+
+  .event-icon {
+    display: grid;
+    flex: 0 0 auto;
+    width: 2.4rem;
+    height: 2.4rem;
+    color: var(--fcc-coral-strong);
+    font-size: 1.1rem;
+    place-items: center;
+    background: rgba(239, 91, 104, 0.12);
+    border-radius: 0.75rem;
+  }
+
+  .event-icon-purple {
+    color: #715bc1;
+    background: rgba(139, 120, 215, 0.14);
+  }
+
+  .feature-section {
+    max-width: 76rem;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+  }
+
+  .section-heading {
+    max-width: 42rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .section-heading > span {
+    color: var(--fcc-coral-strong);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .section-heading h2,
+  .cta h2 {
+    margin: 0.65rem 0 0.75rem;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.12;
+    letter-spacing: -0.045em;
+  }
+
+  .section-heading p {
+    margin: 0;
+    color: var(--fcc-muted);
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .community-logo-wall {
+    --logo-columns: 4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem 2rem;
+    padding: 1rem 0;
+  }
+
+  .community-logo {
+    flex: 0 0 calc((100% - (var(--logo-columns) - 1) * 2rem) / var(--logo-columns));
+    min-width: 0;
+    container-type: inline-size;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    min-height: 6rem;
+    color: var(--fcc-muted);
+    text-decoration: none;
+  }
+
+  .community-logo:hover,
+  .community-logo:focus-visible {
+    color: var(--fcc-ink);
+  }
+
+  .community-logo:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 0.5rem;
+  }
+
+  .community-logo-mark {
+    flex: none;
+    width: clamp(3rem, 28cqi, 5rem);
+    height: clamp(3rem, 28cqi, 5rem);
+    object-fit: contain;
+  }
+
+  .community-logo-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    line-height: 1.3;
+  }
+
+  .community-logo-wordmark,
+  .community-logo-signature {
+    width: 100%;
+    height: 5.5rem;
+    object-fit: contain;
+  }
+
+  .community-logo-name strong {
+    font-size: clamp(1rem, 8cqi, 1.5rem);
+    font-weight: 750;
+  }
+
+  .community-logo-name > span {
+    font-size: clamp(0.7rem, 5.4cqi, 0.95rem);
+    letter-spacing: 0.03em;
+  }
+
+  .feature {
+    position: relative;
+    min-height: 20rem;
+    padding: 1.5rem;
+    color: inherit;
+    text-decoration: none;
+    background: var(--fcc-card);
+    border: 1px solid var(--fcc-border);
+    border-radius: 1.4rem;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+    overflow: hidden;
+  }
+
+  .feature::after {
+    position: absolute;
+    right: -3rem;
+    bottom: -4rem;
+    width: 10rem;
+    height: 10rem;
+    content: "";
+    background: var(--feature-color);
+    border-radius: 50%;
+    opacity: 0.08;
+  }
+
+  .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1.25rem 3rem rgba(57, 40, 65, 0.1);
+  }
+
+  .feature-coral { --feature-color: var(--fcc-coral); }
+  .feature-purple { --feature-color: var(--fcc-lilac); }
+  .feature-gold { --feature-color: #d99132; }
+
+  .feature-index {
+    float: right;
+    color: var(--fcc-muted);
+    font-size: 0.72rem;
+    font-weight: 750;
+  }
+
+  .feature-icon {
+    display: grid;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 3.25rem;
+    color: white;
+    font-size: 1.15rem;
+    background: var(--feature-color);
+    border-radius: 0.9rem;
+    box-shadow: 0 0.75rem 1.6rem color-mix(in srgb, var(--feature-color) 28%, transparent);
+    place-items: center;
+  }
+
+  .feature h3 {
+    margin: 0 0 0.65rem;
+    font-size: 1.35rem;
+  }
+
+  .feature p {
+    margin: 0;
+    color: var(--fcc-muted);
+    font-size: 0.92rem;
+    line-height: 1.75;
+  }
+
+  .feature-link {
+    position: absolute;
+    bottom: 1.5rem;
+    color: var(--feature-color);
+    font-size: 0.84rem;
+    font-weight: 750;
+  }
+
+  .cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 72rem;
+    margin: 2rem auto 6rem;
+    padding: 2.7rem 3rem;
+    color: white;
+    background:
+      radial-gradient(circle at 85% 20%, rgba(255, 255, 255, 0.18), transparent 12rem),
+      linear-gradient(135deg, var(--fcc-featured-start), var(--fcc-featured-end));
+    border-radius: 1.75rem;
+    box-shadow: 0 1.5rem 4rem rgba(201, 51, 75, 0.22);
+  }
+
+  .cta h2 {
+    margin: 0;
+    font-size: clamp(1.8rem, 3.5vw, 2.7rem);
+  }
+
+  .button-light {
+    flex: 0 0 auto;
+    color: var(--fcc-badge-ink);
+    background: white;
+    border: none;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 76rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem 2.5rem;
+    color: var(--fcc-muted);
+    font-size: 0.82rem;
+  }
+
+  .footer div {
+    display: flex;
+    gap: 0.65rem;
+    align-items: center;
+    color: var(--fcc-ink);
+    font-weight: 700;
+  }
+
+  .footer img {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 0.5rem;
+  }
+
+  .footer p {
+    margin: 0;
+  }
+
+  @media (max-width: 1100px) {
+    .community-logo-wall {
+      --logo-columns: 3;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .community-logo-wall {
+      --logo-columns: 2;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .community-logo-wall {
+      --logo-columns: 1;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .hero {
+      grid-template-columns: 1fr;
+      padding-top: 4.5rem;
+    }
+
+    .hero-visual {
+      min-height: 27rem;
+      margin-top: 1rem;
+    }
+
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .feature {
+      min-height: 17rem;
+    }
+
+    .feature-icon {
+      margin-bottom: 2rem;
+    }
+
+    .cta {
+      margin-right: 1rem;
+      margin-left: 1rem;
+    }
+  }
+
+  @media (max-width: 620px) {
+    .hero,
+    .feature-section {
+      padding-right: 1.25rem;
+      padding-left: 1.25rem;
+    }
+
+    h1 {
+      font-size: clamp(1.5rem, 6.5vw, 2.5rem);
+    }
+
+    .hero-visual {
+      min-height: 23rem;
+    }
+
+    .event-card {
+      min-width: 11rem;
+    }
+
+    .event-card-top {
+      top: 2rem;
+      right: -0.5rem;
+    }
+
+    .event-card-bottom {
+      bottom: 2rem;
+      left: -0.5rem;
+    }
+
+    .orbit-one {
+      width: 22rem;
+      height: 17rem;
+    }
+
+    .orbit-two {
+      width: 16rem;
+      height: 23rem;
+    }
+
+    .cta {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .footer {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+  }
+</style>

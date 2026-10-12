@@ -107,6 +107,9 @@ dist
 # Docusaurus cache and generated files
 .docusaurus
 
+# Blume generated runtime
+.blume
+
 # Serverless directories
 .serverless/
 
@@ -131,6 +134,7 @@ dist
 
 # Production
 /build
+/dist
 
 # Generated files
 .docusaurus
@@ -142,3 +146,4 @@ dist
 .env.development.local
 .env.test.local
 .env.production.local
+.blume-verify/

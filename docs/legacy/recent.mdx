@@ -1,4 +1,13 @@
-# 最近展会-已废弃
+---
+title: 旧版最近展会（已废弃）
+api: GET https://api.furrycons.cn/event/recent
+authMethod: none
+playground: simple
+description: 已停止维护的最近展会接口，请迁移至新版接口。
+sidebar:
+  order: 1
+  badge: 已废弃
+---
 
 :::warning
 
@@ -6,7 +15,7 @@
 
 此接口已不会再添加任何新字段。
 
-请使用[【新】最近展会](/docs/api/event/recent) 或 [展会列表](/docs/api/event/list) 接口替代。
+请使用[查询近期活动](/docs/活动/list-recent-open-events) 或 [查询活动列表](/docs/活动/list-open-events) 接口替代。
 
 :::
 
@@ -18,23 +27,29 @@
 
 :::tip
 
-接口返回的图片地址已经经过优化压缩，且默认返回 jpg 格式，尽管如此部分图片的体积依然十分恐怖，请根据自身需求缓存后裁剪并优化体积（有的展会宣传图单张体积可超过 10MB+）。
+展会宣传图片可能较大，请根据实际需求缓存、裁剪并优化体积。
 
 :::
 
 调用此接口可以获取最近 30 天内的展会信息。
 
-支持以下参数：
+## 查询参数
 
-- `keep_old`：当此值为 `true` 时，如果最近 30 天内没有数据，会返回过期的最后一条数据。
+<ParamField query="keep_old" type="string" placeholder="true">
+  当此值为 `true` 时，如果最近 30 天内没有数据，会返回过期的最后一条数据。
+</ParamField>
 
 ```
 https://api.furrycons.cn/event/recent
 ```
 
-预计响应：
+## 响应示例
 
-```json
+以下保留旧版接口的历史响应示例，供已有应用维护与迁移参考。
+
+<ResponseExample>
+
+```json 200
 {
   "total": 1,
   "data": [
@@ -62,3 +77,9 @@ https://api.furrycons.cn/event/recent
   ]
 }
 ```
+
+</ResponseExample>
+
+## 迁移至新版
+
+新版接口为 `/open/event/recent`，需要携带免费申请的应用令牌，鉴权格式为 `Authorization: Bearer <token>`。将参数 `keep_old` 改为 `keepOld`，并根据[新版接口文档](/docs/活动/list-recent-open-events)更新响应字段映射。
