@@ -29,3 +29,8 @@ yarn build
 ```
 
 生产静态文件会输出到 `dist/`。
+
+旧路径重定向统一维护在 `blume.config.ts`。`yarn build` 在 Blume 构建完成后，
+从 `dist/vercel.json` 的重定向规则生成 `dist/edgeone.json`，随产物上传到 EdgeOne Pages。
+
+配置格式见 [EdgeOne 文档](https://pages.edgeone.ai/document/edgeone-json)。

@@ -24,6 +24,9 @@ jobs:
       - name: Build
         run: yarn install --immutable && yarn build
 
+      - name: Check Internal Links and Anchors
+        run: yarn exec blume audit --only LINK_TO_BROKEN,ANCHOR_BROKEN --strict
+
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:

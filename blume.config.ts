@@ -1,4 +1,5 @@
 import { defineConfig } from "blume";
+import { googleAnalytics } from "blume/analytics";
 import { openapi } from "blume/reference";
 import { orama } from "blume/search";
 
@@ -87,6 +88,7 @@ export default defineConfig({
     },
   },
   search: orama(),
+  analytics: [googleAnalytics({ id: "G-SBEQ5GHN20" })],
   markdown: {
     imageZoom: true,
     code: {

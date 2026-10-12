@@ -1,21 +1,24 @@
 ---
-import { getCollection } from "astro:content";
+import { getEntry } from "astro:content";
 import PageLayout from "blume/components/layout/PageLayout.astro";
+import { getBlumeCollection } from "blume/runtime";
 import data from "blume:data";
 
 const { config } = data;
-const routeById = new Map(
-  data.routes.map((route) => [route.entryId, route.path]),
-);
-const posts = (await getCollection("docs"))
-  .filter((entry) => entry.data.type === "blog" && !entry.data.draft)
-  .map((entry) => ({
-    date: entry.data.date,
-    description: entry.data.description,
-    href: routeById.get(entry.id),
-    title: entry.data.title,
-  }))
-  .filter((post) => post.href)
+const posts = (await Promise.all(
+  getBlumeCollection(data, { prefix: "/blog/" }).map(async (route) => {
+    // The route helper does not expose the publication date or content type.
+    const entry = await getEntry("docs", route.entryId);
+    if (!entry || entry.data.type !== "blog") return null;
+    return {
+      date: entry.data.date,
+      description: route.description,
+      href: route.path,
+      title: route.title,
+    };
+  }),
+))
+  .filter((post) => post !== null)
   .toSorted(
     (a, b) => Number(new Date(b.date ?? 0)) - Number(new Date(a.date ?? 0)),
   );

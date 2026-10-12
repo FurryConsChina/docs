@@ -4958,7 +4958,6 @@ __metadata:
   resolution: "fcc-docs@workspace:."
   dependencies:
     blume: "npm:^2.2.2"
-    cookie: "npm:^2.0.1"
   languageName: unknown
   linkType: soft
 

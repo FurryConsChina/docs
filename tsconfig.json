@@ -1,0 +1,5 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "include": [".blume/.astro/types.d.ts", "**/*"],
+  "exclude": ["node_modules", "dist", "build", ".docusaurus", ".blume/dist", ".blume-verify"]
+}
